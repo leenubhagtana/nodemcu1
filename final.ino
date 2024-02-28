@@ -113,7 +113,6 @@ BLYNK_WRITE(V5) {
     Serial.println("SoftAP password changed to: " + command);
     softAP_password=command;
   }
-  
 }
 
 
@@ -127,12 +126,10 @@ BLYNK_WRITE(V3) {
       delay(3000);
       Serial.println("Connected");
       loop();
-      
   } 
   else 
   {
      WiFi.softAPdisconnect(true);
       Serial.println("DisConnected");
-    
   }
 }

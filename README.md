@@ -5,3 +5,4 @@ The WiFi and Blynk libraries play a pivotal role in ensuring robust WiFi connect
 For intitiating Softapi esp_wifi.h library is used.
 The connection to the Blynk platform is facilitated through the BlynkSimpleEsp32 library, streamlining the integration process.
 
+Happy codding
